@@ -3,7 +3,7 @@
 # Updated by:
 #
 #
-# Document what the following lines of code do here
+# imports the tkiner library which is used to create a GUI
 from tkinter import *
 
 root = Tk()
