@@ -6,8 +6,10 @@
 # imports the tkiner library which is used to create a GUI
 from tkinter import *
 
+# This crates the main window.
 root = Tk()
 
+# Names the window simple calculator.
 root.title("Simple Calculator")
 
 # Document what the following lines of code do here
