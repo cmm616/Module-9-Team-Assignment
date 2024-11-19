@@ -22,7 +22,7 @@ def button_click(number):
     e.delete(0, END)
     e.insert(0, str(current) + str(number))
 
-# Document what the following lines of code do here
+# # Defines the function for entry widget to clear when pressed
 def button_clear():
     e.delete(0, END)
 
