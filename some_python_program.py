@@ -106,5 +106,5 @@ button_multiply.grid(row=6, column=1)
 button_divide.grid(row=6, column=2)
 
 # Document what the following line of code do here
-
+#this code call upoon the mainloop function
 root.mainloop()
