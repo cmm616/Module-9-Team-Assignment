@@ -78,7 +78,10 @@ button_equal =  Button(root, text="   =   ", padx=79, pady=20, command=button_eq
 button_clear =  Button(root, text="Clear", padx=79, pady=20, command=button_clear)
 
 # Document what the following lines of code do here
-
+# It creates three buttons for subtraction (-), multiplication (*), and division (/), each with specific padding for appearance. 
+# When any of these buttons are clicked, they will call the button_operator function,
+# passing the respective operator ("-", "*", or "/") as an argument, 
+# which will likely be used to perform the corresponding operation in the calculator program.
 # See the description of a Lambda function above
 button_subtract =  Button(root, text="-", padx=40, pady=20, command=lambda: button_operator("-"))
 button_multiply =  Button(root, text="*", padx=40, pady=20, command=lambda: button_operator("*"))
