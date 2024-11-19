@@ -85,6 +85,8 @@ button_multiply =  Button(root, text="*", padx=40, pady=20, command=lambda: butt
 button_divide =  Button(root, text="/", padx=40, pady=20, command=lambda: button_operator("/"))
 
 # Document what the following lines of code do here
+# This grid layout creates a basic calculator interface, where number buttons (0-9) and mathematical operators (addition, subtraction, multiplication, division) are arranged logically. 
+# The button_clear and button_equal buttons perform specific functions like clearing the input or showing the result, respectively.
 
 button_1.grid(row=3, column=0)
 button_2.grid(row=3, column=1)
