@@ -54,7 +54,11 @@ def button_equal():
         e.insert(0, "Invalid!!!")
 
 # Document what the following lines of code do here
-#
+# This code sets up the graphical interface for a calculator with buttons for the numbers 0-9, 
+# an addition operator (+), an equals button (=), and a clear button (Clear). 
+# The actual behavior and calculations depend on how the button_click, button_operator,
+# button_equal, and button_clear functions are implemented elsewhere in the program.
+
 # NOTE: We did not cover Lambda functins in class. A Lambda Function 
 # in Python programming is an anonymous function
 # or a function having no name. It is a small and restricted function 
