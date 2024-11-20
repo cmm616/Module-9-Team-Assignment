@@ -30,9 +30,9 @@ def button_click(number):
 def button_clear():
     e.delete(0, END) # Deletes all the content in the entry widget
 
-# Document what the following lines of code do here
-# This function works by  pressing an operator button that  stores the first operand (the number) and the operator, then is
-# ready to proceed to the next operand or action.
+# Function that handles operators.
+# When an operator is clicked it stores the first number and operator.
+# And clears the input to prepare for the second number.
 def button_operator(operator):
     first_number = e.get()
     global f_num
