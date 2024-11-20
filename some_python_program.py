@@ -38,7 +38,9 @@ def button_operator(operator):
     e.delete(0, END)
 
 # Document what the following lines of code do here
-
+# This function takes two numbers (one from the entry field and one stored in f_num), 
+# applies the selected arithmetic operation (based on num_operator), 
+# and displays the result in the entry field.# If the operator is not recognized, it shows "Invalid!!!".
 # you might want to consider adding documentation on a line by line basis since
 # this is a critical function for the program
 def button_equal():
