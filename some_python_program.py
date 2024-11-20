@@ -25,10 +25,10 @@ def button_click(number):
     current = e.get()
     e.delete(0, END)
     e.insert(0, str(current) + str(number))
-
-# # Defines the function for entry widget to clear when pressed
+    
+# Defines function to clear the input when the "Clear" button is pressed.
 def button_clear():
-    e.delete(0, END) # Deletes all the content in the entry widget
+    e.delete(0, END) 
 
 # Function that handles operators.
 # When an operator is clicked it stores the first number and operator.
