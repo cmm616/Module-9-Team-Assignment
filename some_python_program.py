@@ -12,7 +12,9 @@ root = Tk()
 # Names the window simple calculator.
 root.title("Simple Calculator")
 
-# Document what the following lines of code do here
+# Entry widget where users can input numbers or results. 
+# The width is set to 35 characters, with a border width of 5.
+# The grid method places it in the first row, first column across 3 columns.
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
