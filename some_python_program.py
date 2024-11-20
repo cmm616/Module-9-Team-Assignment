@@ -18,7 +18,9 @@ root.title("Simple Calculator")
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
-# Document what the following lines of code do here
+# # Function that is triggered when a number button is pressed.
+# It gets the current content in the input and deletes it.
+# And appends the clicked number at the end of the input.
 def button_click(number):
     current = e.get()
     e.delete(0, END)
